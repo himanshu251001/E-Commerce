@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    margin-left: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/handloom.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    height: 7%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu {
+    cursor: pointer;
+    width: 30px;
+    margin-left: 40%;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    style-list: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    padding-top: 5px;
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 10px;
+
+
+}
+
+p {
+    padding-top: 7px;
+
+    color: #fff;
+    font-size: 18px;
+    line-height: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    text-indent: 50px;
+    line-height: 1.2;
+}
+
+button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #8a748a;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+button :hover {
+    background: #d4dfe6;
+    background-image: -webkit-linear-gradient(top, #d4dfe6, #e1eef7);
+    background-image: -moz-linear-gradient(top, #d4dfe6, #e1eef7);
+    background-image: -ms-linear-gradient(top, #d4dfe6, #e1eef7);
+    background-image: -o-linear-gradient(top, #d4dfe6, #e1eef7);
+    background-image: linear-gradient(to bottom, #d4dfe6, #e1eef7);
+    text-decoration: none;
+
+
+
+}
+
+.card {
+
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    border-style: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+
+.card1 {
+    background-image: url(../images/handloom2.jpeg);
+}
+
+.card2 {
+    background-image: url(../images/mirror.jpg);
+}
+
+.card3 {
+    background-image: url(../images/bamboo.jpeg);
+}
+
+.card4 {
+    background-image: url(../images/pot.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.para {
+    padding-bottom: 20px;
+}
+
+.col1 {
+    padding-top: 100px;
+    flex-basis: 50%;
+}
+
+.act {
+    display: flex;
+}
+
+.hone {
+    font-size: 100px;
+}
+
+.act1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dec {
+    text-decoration: none;
+}
+
+
+.lin1 {
+    text-decoration: none;
+    color: rgb(135, 141, 151);
+    font-weight: 300px;
+
+}
+
+.lin1:hover {
+    text-decoration: none;
+}

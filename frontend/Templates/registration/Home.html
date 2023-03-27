@@ -1,0 +1,265 @@
+<html>
+
+<head>
+    <title>clothing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        button.navButon {
+            color: rgb(15, 126, 37);
+            border-radius: 10px;
+            background-color: black;
+            height: 25px;
+            width: 150px;
+        }
+
+        nav {
+            background-color: rgb(54, 53, 53);
+        }
+
+        a#name {
+            font-family: cursive;
+            font-size: 30px;
+            color: aliceblue;
+        }
+
+        li.dropd {
+            background-color: darkgray;
+        }
+    </style>
+    <script src="../../src/index.js"></script>
+</head>
+
+<body>
+    <button onclick="sortByRating()">Click to sortByRating</button>
+    <button onclick="sortByPriceLimit(value)" value="5900">Click to sortByPriceLimit</button>
+    <div>
+        <img src="https://www.inditales.com/wp-content/uploads/2017/04/Handicrafts.jpg" class="rounded"
+            style="width: 100%; height:20%;">;
+    </div>
+    <nav class="navbar navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a id="name" class="navbar-brand" href="#">Hand-E-Crafts</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/index.html"><button class="navButon">Home</button></a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><button
+                            class="navButon">Handlooms</button><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropd"><a href="/frontend/Templates/products/Clothing_Page.html">Clothing</a></li>
+                        <li class="dropd"><a href="/frontend/Templates/products/Fashion_Accessories.html">Fashion Accessories</a></li>
+                        <li class="dropd"><a href="/frontend/Templates/products/Traditional_Wear.html ">Traditional Wear</a></li>
+                        <li class="dropd"><a href="#">Made Ups</a></li>
+                        <li class="dropd"><a href="#">Floor Covers</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><button
+                            class="navButon">Handicrafts</button><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropd"><a href="/frontend/Templates/products/Wood_Works.html">Wooden Works</a></li>
+                        <li class="dropd"><a href="/frontend/Templates/products/Stone_works.html">Stone Works</a></li>
+                        <li class="dropd"><a href="#">Natural Fibre</a></li>
+                        <li class="dropd"><a href="#">Glass Works</a></li>
+                        <li class="dropd"><a href="#">Cane & Bamboo</a></li>
+                        <li class="dropd"><a href="#">Clay & Ceramic</a></li>
+                        <li class="dropd"><a href="#">Soft Goods</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><button
+                            class="navButon">Statewise Handiwork</button><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropd"><a href="#">Assam</a></li>
+                        <li class="dropd"><a href="#">Kolkata</a></li>
+                        <li class="dropd"><a href="#">Maharshtra</a></li>
+                        <li class="dropd"><a href="#">Gujarat</a></li>
+                        <li class="dropd"><a href="#">Rajasthan</a></li>
+                        <li class="dropd"><a href="#">Kashmir</a></li>
+                        <li class="dropd"><a href="#">Kerala</a></li>
+
+                    </ul>
+                </li>
+                <li class="active"><a href="#"><button class="navButon">About Us</button></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="outerBox">
+        <div class="row" id="box">
+            <div id="1" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Banarasi Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://i0.wp.com/shaadiwish.com/blog/wp-content/uploads/2020/12/banarasi-sarees-e1607075012648.jpg">
+                </center>
+                <i>A Banarasi sari is a sari made in Varanasi, an ancient city which is also called Benares (Banaras).
+                    The saris are among the finest saris in India and are known for their gold and silver brocade or
+                    zari, fine silk and opulent embroidery.</i>
+                <br>
+                <center><a href="#"><button id="btn1">BUY (Rs.5000)</button></a></center>
+                <p id="product1">4</p>
+            </div>
+
+            <div id="2" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3 class="product">Kanchipuram Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://cdn.shopify.com/s/files/1/1027/2035/products/SRN8594-1_800x.jpg?v=1647849447">
+                </center>
+                <i>The Kanchipuram silk sari is a type of silk sari made in the Kanchipuram region in Tamil Nadu,
+                    India.[1] These saris are worn as bridal & special occasion saris by most women in Tamil Nadu,
+                    Kerala, Karnataka & Andhra Pradesh.</i>
+                <br>
+                <center><a href="#"><button id="btn2" >BUY (Rs.10,000)</button></a></center>
+                <p id="product2">1</p>
+            </div>
+
+            <div id="3" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn3">BUY (Rs.2500)</button></a></center>
+                <p id="product3">3</p>
+            </div>
+            <div id="4" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn4">BUY (Rs.2500)</button></a></center>
+                <p id="product3">2</p>
+            </div>
+            <div id="5" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn5">BUY (Rs.2500)</button></a></center>
+                <p id="product3">5</p>
+            </div>
+            <div id="6" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn6">BUY (Rs.2500)</button></a></center>
+                <p id="product3">2</p>
+            </div>
+            <div id="7" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn7">BUY (Rs.2500)</button></a></center>
+                <p id="product3">1</p>
+            </div>
+            <div id="8" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u>
+                        <h3>Kalamkari Saree</h3>
+                    </u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;"
+                        src="https://ibuyfromindia.com/wp-content/uploads/2021/04/kalamkari-saree-VDKLKR-100.jpg">
+                </center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in
+                    the Indian state of Andhra Pradesh. Only natural dyes are used in Kalamkari, which involves
+                    twenty-three steps.</i>
+                <br>
+                <center><a href="#"><button id="btn8">BUY (Rs.2500)</button></a></center>
+                <p id="product3">5</p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div id="4" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u><h3>Uppada Saree</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://cdn.shopify.com/s/files/1/0507/4783/4549/products/KA107-2_530x@2x.jpg?v=1630686628"></center>
+                <i>The famous art of weaving Uppada sarees is known to have originated in the small village of Uppada, in the East Godavari District of Andhra Pradesh. The small village is famous for its hand-woven sarees as well as for being a popular fishing location.</i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.21,500)</button></a></center><p id="product4">2</p>
+            </div>
+            <div id="5" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u> <h3>Khadi cloth</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://craftatlas.co/wp-content/uploads/2020/07/1590830774_e856ca4a967bac5833b430befa1ffad3.jpg"></center>
+                <i>Khadi is made by hand in homes in Indian villages, using a cotton yarn spun on a wheel, or "charkha". Some varieties of Khadi fabric use silk or woolen yarns depending on the region where it is spun.</i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.181/metre)</button></a></center><p id="product5">5</p>
+            </div>
+            <div id="6" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u><h3>Kalamkari cloth</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://2.wlimg.com/product_images/bc-full/dir_114/3419598/kalamkari-cotton-fabric-1689251.jpeg"></center>
+                <i>Kalamkari is a type of hand-painted or block-printed cotton textile produced in Isfahan, Iran, and in the Indian state of Andhra Pradesh</i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.300/metre)</button></a></center><p id="product6">4</p>
+
+            </div>
+          </div> -->
+        <!-- <div class="row">
+            <div id="7" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u><h3>Banarasi Silk cloth</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://productimages.withfloats.com/tile/5cbb709a6749260001fc47ad.jpg"></center>
+                <i>Banarasi Silk (also known as Benarasi SIlk) is a fine variant of Silk originating from the city of Varanasi in Uttar Pradesh, India. Saree woven from this fine silk, known as a Banarasi Silk Saree is extremely popular all over India and across the world</i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.229/metre)</button></a></center><p id="product7">3</p>
+            </div>
+            <div id="8" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u><h3>Dhoti</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://www.utsavpedia.com/wp-content/uploads/2013/07/dupion-silk-dhoti-in-light-beige-207x300.jpg"></center>
+                <i>Whether you are dressing up for festivities, puja, or rituals, dhotis are a top choice as traditional wear across the Indian subcontinent. </i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.675)</button></a></center><p id="product8">4</p>
+            </div>
+            <div id="9" class="col-sm-4" style="height: 500px;border-style: double;">
+                <center><u><h3>Kurtas</h3></u></center>
+                <center><img class="rounded" style="height: 50%;width:50%;" src="https://i.etsystatic.com/18307082/r/il/088246/2942475201/il_fullxfull.2942475201_ehn7.jpg"></center>
+                <i>Kurta is a long loose shirt, the length of which falls below or may be just above the knees of the wearer. In early times, it was primarily worn by men, but today, it has become a unisex dress that both men and women can wear</i>
+                <br>
+                <center><a href="#"><button>BUY (Rs.3500)</button></a></center><p id="product9">1</p>
+            </div>
+          </div> -->
+    </div>
+
+
+
+</body>
+
+</html>
