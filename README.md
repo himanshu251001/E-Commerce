@@ -1,14 +1,15 @@
 # E-Commerce Website(Rural Art)
-About CardUi
-If you are Looking for  (UI) Designs and Effects for your Projects/websites, then this website is a one stop solution for you. 
+**About Website**
+If you are Looking for (UI) Designs and Effects for your Projects/websites, then this website is a one stop solution for you. 
 
-Tech Stacks :
+**#Tech Stacks :**
 HTML
 CSS
 Bootstrap
 Jquery
 JavaScript( if required can use it)
-what you have to do in order to Contribute
+
+**what you have to do in order to Contribute**
 create some attractive UI's with amazing effects as simple as that
 don't change anythings else apart from adding your UI designs
 How to do Contribution to this Project ?
