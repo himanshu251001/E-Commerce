@@ -1,7 +1,7 @@
 # E-Commerce Website(Rural Art)
 **About Website**
 
-If you are Looking for (UI) Designs and Effects for your Projects/websites, then this website is a one stop solution for you. 
+If you are Looking forward to contributes in UI Designing and Effects for your Projects/websites, then working on this  website is a one stop solution for you. 
 
 **#Tech Stacks :**
 
