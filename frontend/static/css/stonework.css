@@ -31,17 +31,18 @@ button.navButon {
 
 .landing .nav-text {
     text-align: center;
-    width: 75vw;
+    width: 80vw;
     height: 80vh;
     font-size: 45px;
     font-family: 'Cinzel', serif;
     color: white;
     font-weight: 700;
     position: absolute;
-    top: 45%;
-    left: 12%;
+    /* top: 45%; */
+    left: 7%;
     letter-spacing: 5px;
     line-height: 40px;
+    padding: 18rem 0 0 10rem;
 }
 
 a#name {
@@ -437,4 +438,79 @@ button {
     color: white;
     font-weight: 800;
     padding: 40px;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+@media (max-width: 875px) {
+    .nav-links ul li {
+        display: block;
+    }
+    nav {
+        overflow: hidden;
+    }
+    .nav-links {
+        position: fixed;
+        background: #02173b;
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        left: -300px;
+        text-align: left;
+        transition: 1s;
+        overflow: hidden;
+        z-index: 2;
+    }
+    nav .fa-solid {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul {
+        padding: 30px;
+    }
+    .landing .nav-text {
+        padding: 0;
+        top: 35%;
+        left: 10%;
+    }
+    .Organisercard {
+        width: 350px;
+    }
+    .Organisercard-image {
+        width: 300px;
+        height: 200px;
+    }
+    .Organisercard-text {
+        height: 150px;
+        width: 330px;
+    }
+    .Organisercard-title {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        margin-top: -5px;
+    }
+    .Organisercard-body {
+        font-size: 1.2rem;
+    }
+    .Organisercard-price {
+        width: 80px;
+    }
+    .container-Organiser {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:575px) {
+    .landing .nav-text {
+        font-size: 35px;
+        top: 20%;
+    }
+    .organiser {
+        margin-left: 20%;
+    }
 }
