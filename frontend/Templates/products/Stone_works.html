@@ -1,224 +1,188 @@
 <html>
-  <head>
+
+<head>
     <title>Stone Works</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../static/css/stonework.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
 
-    <style>
-      body {
-        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-          "Lucida Sans", Arial, sans-serif;
-      }
-      button.navButon {
-        color: rgb(15, 126, 37);
-        border-radius: 10px;
-        background-color: black;
-        height: 25px;
-        width: 150px;
-      }
-      nav {
-        background-color: rgb(54, 53, 53);
-      }
-      a#name {
-        font-family: cursive;
-        font-size: 30px;
-        color: aliceblue;
-      }
-      li.dropd {
-        background-color: darkgray;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <img
-        src="https://www.inditales.com/wp-content/uploads/2017/04/Handicrafts.jpg"
-        class="rounded"
-        style="width: 100%; height: 20%"
-      />;
+<body>
+    <section class="landing">
+        <nav class="navbar navbar-expand" style="border-radius: 0px;">
+            <div class="container-fluid">
+                <a id="name" class="navbar-brand" href="# ">hand-'e'-crafts</a>
+            </div>
+            <div class="navbar-header nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul class="nav navbar-nav ">
+                    <li class="active ">
+                        <a href="# "><button class="navButon">Home</button></a>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle " data-toggle="dropdown" href="# "><button class="navButon ">Handlooms</button><span class="caret "></span></a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropd"><a href="../Clothing_Page/ ">Clothing</a></li>
+                            <li class="dropd">
+                                <a href="../Fashion_Accessories/ ">Fashion Accessories</a>
+                            </li>
+                            <li class="dropd ">
+                                <a href="../Traditional_Wear/ ">Traditional Wear</a>
+                            </li>
+                            <li class="dropd "><a href="# ">Made Ups</a></li>
+                            <li class="dropd "><a href="# ">Floor Covers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle " data-toggle="dropdown" href="# "><button class="navButon ">Handicrafts</button><span class="caret "></span ></a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropd "><a href="../Wood_Works/ ">Wooden Works</a></li>
+                            <li class="dropd "><a href="../Stone_Works/ ">Stone Works</a></li>
+                            <li class="dropd "><a href="# ">Natural Fibre</a></li>
+                            <li class="dropd "><a href="# ">Glass Works</a></li>
+                            <li class="dropd "><a href="# ">Cane & Bamboo</a></li>
+                            <li class="dropd "><a href="# ">Clay & Ceramic</a></li>
+                            <li class="dropd "><a href="# ">Soft Goods</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle " data-toggle="dropdown" href="# "><button class="navButon ">Statewise Handiwork</button><span class="caret "></span></a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropd "><a href="# ">Assam</a></li>
+                            <li class="dropd "><a href="# ">Kolkata</a></li>
+                            <li class="dropd "><a href="# ">Maharshtra</a></li>
+                            <li class="dropd "><a href="# ">Gujarat</a></li>
+                            <li class="dropd "><a href="# ">Rajasthan</a></li>
+                            <li class="dropd "><a href="# ">Kashmir</a></li>
+                            <li class="dropd "><a href="# ">Kerala</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown ">
+                        <a class="dropdown-toggle " data-toggle="dropdown" href="# "><button class="navButon ">Predictions</button
+          ><span class="caret "></span
+        ></a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropd "><a href="# ">Demand Forecasting</a></li>
+                            <li class="dropd "><a href="# ">Automatic quality check</a></li>
+                            <li class="dropd "><a href="# ">Sentiment Analysis</a></li>
+                        </ul>
+                    </li>
+                    <li class="active ">
+                        <a href="# "><button class="navButon ">About Us</button></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="nav-text">
+            "Artisanal stonework embodies the essence of the earth, the mastery of the craftsman, and the allure of individuality."
+        </div>
+    </section>
+    <div class="organised-head">
+        OUR PRODUCTS
+        <hr>
     </div>
-    <nav class="navbar navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a id="name" class="navbar-brand" href="#">Hand-E-Crafts</a>
+    <div class="container-Organiser ">
+        <div class="Organisercard ">
+            <div class="Organisercard-image ">
+                <img src="https://2.imimg.com/data2/GU/OF/MY-4587047/marble-stone-furniture-250x250.jpg ">
+            </div>
+            <div class="Organisercard-text ">
+                <h2 class="Organisercard-title ">FURNITURE</h2>
+                <p class="Organisercard-meal-type "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
+                <p class="Organisercard-body ">Marble and Sandstone Furniture :: Carved Stone Furniture from Rajasthan - India · Marble and Sandstone Furniture · antique marble sofa · carved garden bench.</p>
+            </div>
+            <div class="Organisercard-price "><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>500</div>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="#"><button class="navButon">Home</button></a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              ><button class="navButon">Handlooms</button
-              ><span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li class="dropd"><a href="../Clothing_Page/">Clothing</a></li>
-              <li class="dropd">
-                <a href="../Fashion_Accessories/">Fashion Accessories</a>
-              </li>
-              <li class="dropd">
-                <a href="../Traditional_Wear/">Traditional Wear</a>
-              </li>
-              <li class="dropd"><a href="#">Made Ups</a></li>
-              <li class="dropd"><a href="#">Floor Covers</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              ><button class="navButon">Handicrafts</button
-              ><span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li class="dropd"><a href="../Wood_Works/">Wooden Works</a></li>
-              <li class="dropd"><a href="../Stone_Works/">Stone Works</a></li>
-              <li class="dropd"><a href="#">Natural Fibre</a></li>
-              <li class="dropd"><a href="#">Glass Works</a></li>
-              <li class="dropd"><a href="#">Cane & Bamboo</a></li>
-              <li class="dropd"><a href="#">Clay & Ceramic</a></li>
-              <li class="dropd"><a href="#">Soft Goods</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              ><button class="navButon">Statewise Handiwork</button
-              ><span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li class="dropd"><a href="#">Assam</a></li>
-              <li class="dropd"><a href="#">Kolkata</a></li>
-              <li class="dropd"><a href="#">Maharshtra</a></li>
-              <li class="dropd"><a href="#">Gujarat</a></li>
-              <li class="dropd"><a href="#">Rajasthan</a></li>
-              <li class="dropd"><a href="#">Kashmir</a></li>
-              <li class="dropd"><a href="#">Kerala</a></li>
-            </ul>
-          </li>
-          <li class="active">
-            <a href="#"><button class="navButon">About Us</button></a>
-          </li>
-          <li class="active">
-            <a href="#"><button class="navButon">About Us</button></a>
-          </li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-              ><button class="navButon">Predictions</button
-              ><span class="caret"></span
-            ></a>
-            <ul class="dropdown-menu">
-              <li class="dropd"><a href="#">Demand Forecasting</a></li>
-              <li class="dropd"><a href="#">Automatic quality check</a></li>
-              <li class="dropd"><a href="#">Sentiment Analysis</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="box">
-      <div class="row">
-        <div class="col-sm-4" style="height: 500px; border-style: double">
-          <center>
-            <u><h3>Furniture</h3></u>
-          </center>
-          <center>
-            <img
-              class="rounded"
-              style="height: 50%; width: 50%"
-              src="https://2.imimg.com/data2/GU/OF/MY-4587047/marble-stone-furniture-250x250.jpg"
-            />
-          </center>
-          <i
-            >Marble and Sandstone Furniture :: Carved Stone Furniture from
-            Rajasthan - India · Marble and Sandstone Furniture · antique marble
-            sofa · carved garden bench</i
-          >
-          <br />
-          <center>
-            <a href="#"><button id="btn24">BUY (Rs.500)</button></a>
-          </center>
-          Rating (out of 5) :
-          <p id="product124">3.5/5</p>
+        <div class="Organisercard ">
+            <div class="Organisercard-image ">
+                <img src="https://royalmarblecraft.com/image/table.jpg ">
+            </div>
+            <div class="Organisercard-text ">
+                <h2 class="Organisercard-title ">TABLE TOPS</h2>
+                <p class="Organisercard-meal-type "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class=" fa-solid fa-star-half-stroke "></i></p>
+                <p class="Organisercard-body ">Marble is a beautiful natural stone with a timeless appeal that never goes out of style. This material is not only used as the flooring or wall cladding but also as a tabletop for the dining table, centre table or coffee tables.
+                </p>
+            </div>
+            <div class="Organisercard-price "><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> 3000</div>
         </div>
-
-        <div class="col-sm-4" style="height: 500px; border-style: double">
-          <center>
-            <u><h3 class="product">Table tops</h3></u>
-          </center>
-          <center>
-            <img
-              class="rounded"
-              style="height: 50%; width: 50%"
-              src="https://royalmarblecraft.com/image/table.jpg"
-            />
-          </center>
-          <i
-            >Marble is a beautiful natural stone with a timeless appeal that
-            never goes out of style. This material is not only used as the
-            flooring or wall cladding but also as a tabletop for the dining
-            table, centre table or coffee tables.</i
-          >
-          <br />
-          <center>
-            <a href="#"><button id="btn25">BUY (Rs.3000)</button></a>
-          </center>
-          Rating (out of 5) :
-          <p id="product25">3.5/5</p>
+        <div class="Organisercard ">
+            <div class="Organisercard-image ">
+                <img src="https://m.media-amazon.com/images/I/91+AL16jqkL._SL1500_.jpg ">
+            </div>
+            <div class="Organisercard-text ">
+                <h2 class="Organisercard-title ">UTENSILS</h2>
+                <p class="Organisercard-meal-type "><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star">  </i></p>
+                <p class="Organisercard-body ">Soapstones were used during Ming Dynasty to carve utensils like plates and teapots. These utensils are still used in modern and traditional kitchens.</p>
+            </div>
+            <div class="Organisercard-price "><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i>760</div>
         </div>
-
-        <div class="col-sm-4" style="height: 500px; border-style: double">
-          <center>
-            <u><h3>Utensils</h3></u>
-          </center>
-          <center>
-            <img
-              class="rounded"
-              style="height: 50%; width: 50%"
-              src="https://m.media-amazon.com/images/I/91+AL16jqkL._SL1500_.jpg"
-            />
-          </center>
-          <i
-            >Soapstones were used during Ming Dynasty to carve utensils like
-            plates and teapots. These utensils are still used in modern and
-            traditional kitchens</i
-          >
-          <br />
-          <center>
-            <a href="#"><button id="btn26">BUY (Rs.760)</button></a>
-          </center>
-          Rating (out of 5) :
-          <p id="product26">5/5</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4" style="height: 500px; border-style: double">
-          <center>
-            <u><h3>Decorative items</h3></u>
-          </center>
-          <center>
-            <img
-              class="rounded"
-              style="height: 50%; width: 50%"
-              src="https://m.media-amazon.com/images/I/811zRRyIjPL._SX425_.jpg"
-            />
-          </center>
-          <i
-            >This is a geographical list of natural stone used for decorative
-            purposes in construction and monumental sculpture produced in
-            various countries.</i
-          >
-          <br />
-          <center>
-            <a href="#"><button id="btn27">BUY (Rs.990)</button></a>
-          </center>
-          Rating (out of 5) :
-          <p id="product27">4.5/5</p>
-        </div>
-      </div>
     </div>
-  </body>
+    <button class="organiser">
+      LOAD MORE<i class="fa-solid fa-arrow-right"></i>
+      </button>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!--- END COL -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Page Link</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>
+                                <a href="#">Handlooms</a>
+                            </li>
+                            <li><a href="#">Handicrafts </a></li>
+                            <li><a href="#">Statewise Handiwork</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--- END COL -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="single_footer single_footer_address">
+                        <h4>Subscribe today</h4>
+                        <div class="signup_form">
+                            <form action="#" class="subscribe">
+                                <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="social_profile">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-xs-12">
+                    <p class="copyright">Copyright © 2023
+
+                    </p>
+                </div>
+                <!--- END COL -->
+            </div>
+            <!--- END ROW -->
+        </div>
+        <!--- END CONTAINER -->
+    </div>
+
+    <script src="../../../main.js"></script>
+
+</body>
+
 </html>

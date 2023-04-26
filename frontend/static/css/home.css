@@ -15,42 +15,16 @@
     box-sizing: border-box;
 }
 
-.navbar {
-
-    height: 7%;
-    display: flex;
-    align-items: flex-end;
-}
-
 .menu {
     cursor: pointer;
     width: 30px;
     margin-left: 40%;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul li {
-    style-list: none;
-    display: inline-block;
-    margin-left: 60px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 13px;
-
-}
-
 .row {
     display: flex;
     height: 88%;
     align-items: center;
-
 }
 
 .col {
@@ -63,13 +37,10 @@ h1 {
     font-size: 100px;
     font-family: 'Work Sans', sans-serif;
     padding-bottom: 10px;
-
-
 }
 
 p {
     padding-top: 7px;
-
     color: #fff;
     font-size: 18px;
     line-height: 15px;
@@ -98,13 +69,9 @@ button :hover {
     background-image: -o-linear-gradient(top, #d4dfe6, #e1eef7);
     background-image: linear-gradient(to bottom, #d4dfe6, #e1eef7);
     text-decoration: none;
-
-
-
 }
 
 .card {
-
     width: 200px;
     height: 230px;
     display: inline-block;
@@ -117,7 +84,6 @@ button :hover {
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
-
 }
 
 .card1 {
@@ -176,12 +142,10 @@ h5 {
     text-decoration: none;
 }
 
-
 .lin1 {
     text-decoration: none;
     color: rgb(135, 141, 151);
     font-weight: 300px;
-
 }
 
 .lin1:hover {
