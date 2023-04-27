@@ -1,18 +1,16 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .cont {
-    margin-left: 0;
-    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/handloom.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
     padding-right: 8%;
-    box-sizing: border-box;
 }
 
 .menu {
@@ -31,7 +29,6 @@
     padding-top: 5px;
     flex-basis: 50%;
 }
-
 h1 {
     color: #fff;
     font-size: 100px;
@@ -61,7 +58,7 @@ button {
     text-decoration: none;
 }
 
-button :hover {
+button:hover {
     background: #d4dfe6;
     background-image: -webkit-linear-gradient(top, #d4dfe6, #e1eef7);
     background-image: -moz-linear-gradient(top, #d4dfe6, #e1eef7);
@@ -80,7 +77,6 @@ button :hover {
     border-style: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(../images/image1.jpg);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
